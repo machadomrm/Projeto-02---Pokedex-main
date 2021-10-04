@@ -1,0 +1,205 @@
+@import url(//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon);
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar{
+    color: blue;
+    padding-top:5px; 
+    padding-bottom:5px;
+    height: 60px;
+    margin-bottom: 25px;
+    text-align: center;
+    background: url(https://thumbs.dreamstime.com/z/illustration-redraw-redesign-pokemon-pikachu-ball-rotate-seamless-pattern-redraw-redesign-pokemon-pikachu-ball-163875816.jpg);
+    background-size: cover;
+  }
+  .navbar h1{
+    font-family: Pokemon;  
+    font-size: 35px;
+    text-shadow: 
+        -1px -1px 0px rgb(0, 0, 0), 
+        -1px 1px 0px rgb(0, 0, 0),                    
+        1px -1px 0px rgb(0, 0, 0),                  
+        1px 0px 0px rgb(0, 0, 0);
+  }
+
+  .floatLeft{
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 0;
+    float: left;
+    vertical-align: middle;
+    background:#2D888F;
+    color:white; 
+    text-decoration:none;
+    text-align: center;
+    border-radius: 28px;
+    padding: 15px 15px 32px 15px;
+    border: 2px solid #000;
+    };
+
+.home{
+    display: flex;
+    justify-content: left;
+    width: 60px;
+    height: 20px;
+}
+
+body{
+    background: url(https://cutewallpaper.org/21/pokemon-gif-wallpaper/Purple-Eared-Pikachu-Animation-by-moxie2D-Pikachu-art-.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+
+
+element.style {
+}
+
+.button-pink {
+    background: #bdb9b8;
+}
+.button {
+    font-size: 20px;
+    max-width: 240px;
+    border: 2px solid #000;
+    color: black;
+    border-radius: 28px;
+    padding: 15px 15px 16px 15px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+
+.imager {
+    margin-top: 8px;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 6px solid #bdb9b8;
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+    margin-bottom: 1rem;
+    background: url(http://i.imgur.com/7nCRR.png);
+    background-size: cover;
+}
+
+.send-bd{
+    margin-top: 10px;
+}
+
+section#message {
+  padding: 1.5rem;
+  background-color: rgb(197, 255, 214);
+  color: #004d04;
+  position: fixed;
+  top: 3rem;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+span#close {
+  font-size: 2rem;
+  cursor: pointer;
+  transition: .3s;
+}
+
+span#close:hover{
+  color: rgb(255, 0, 0);
+  transform: scale(1.5);
+}
+
+
+section#inscrever {
+    color: yellow;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: blue;
+    margin: 0 20rem 10rem 20rem;
+    box-shadow: 0 0 1rem #00000060;
+    border-radius: 1rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+user agent stylesheet
+section {
+    display: block;
+}
+
+
+section#inscrever form {
+    width: 100%;
+    padding: 3rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+user agent stylesheet
+#format {
+    display: block;
+    margin-top: 0em;
+}
+
+
+section#inscrever form div input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border: none;
+}
+
+section#inscrever form div label {
+  font-size: 1.3rem;
+}
+
+section#inscrever form button {
+  border: 1px solid #3359ec;
+  background-color: #fff;
+  color: #3359ec;
+  padding: 1rem;
+  font-size: 0.8vw;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+  width: 40%;
+}
+
+section#inscrever form button:hover {
+  background-color: #3359ec;
+  color: #fff;
+  transform: scale(1.1);
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/188/188918.png" type="image/x-icon"/>
+    <title>Cadastro</title>
+</head>
+<body>
+    <nav class="navbar navbar-center navbar">
+        <div>
+            <div>
+                <a class="floatLeft" href="/" >Home</a></div>
+        </div>
+    </nav>
+    <section id="inscrever">
+    <form id="format" action="/new" method="POST">
+   <div>
+       <label for="nome">Nº</label>
+       <input type="text" name="number" id="input_number" placeholder="Digite o Numero do pokemon" required>
+   </div>
+   <div>
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" id="input_nome" class="resetar" placeholder="Digite o Nome do pokemon" required>
+</div>
+<div>
+    <label for="nome">Tipo</label>
+    <input type="text" name="type" id="input_type" placeholder="Digite o Tipo do pokemon" required>
+</div>
+<div>
+    <label for="nome">Imagem</label>
+    <input type="text" name="img" id="input_img" placeholder="Cole o Link da imagem do pokemon" required>
+</div>
+<div>
+    <label for="nome">Descrição</label>
+    <input type="text" name="descript" id="input_descript" placeholder="Digite a Descrição do pokemon" required>
+</div>
+<div>
+    <label for="nome">Altura</label>
+    <input type="text" name="alt" id="input_alt" placeholder="Digite a Altura do pokemon" required>
+</div>
+<div>
+    <label for="nome">Peso</label>
+    <input type="text" name="kg" id="input_kg" placeholder="Digite o Peso do pokemon" required>
+</div>
+<div>
+    <label for="nome">Categoria</label>
+    <input type="text" name="cat" id="input_cat" placeholder="Digite a Categoria do pokemon" required>
+</div>
+<div>
+    <label for="nome">Habilidade</label>
+    <input type="text" name="ability" id="input_ability" placeholder="Digite a Habilidade do pokemon" required>
+</div>
+   <div>
+       <button type="submit" onclick="cadastrado()">
+        Cadastrar</button>
+   </div> 
+</form>
+</section>
+</body>
+</html>

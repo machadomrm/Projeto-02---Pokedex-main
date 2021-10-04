@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/188/188918.png" type="image/x-icon"/>
+    <title>Pokedex</title>
+</head>
+<body>
+    <audio autoplay="autoplay" loop>
+        <source src="/audio/music.mp3" type="audio/mp3">
+      </audio>
+    <nav class="navbar navbar-center navbar">
+        <% if(message != "") {  %>
+            <section id="message">
+                <p><%= message %></p> <span id="close">&times;</span>
+            </section>
+        <% }  %>
+        <div>
+            <div>
+                <a class="floatLeft" href="/" >Home</a></div>
+                <div>
+                    <a class="floatLeft" href="/cadastro" >Cadastro</a></div>
+            </div>
+        </div>
+    </nav>
+
+    <ul>
+        <% Pokedex.forEach((item, find) => { %>
+        <a href="/detalhes/<%= find %>">
+        <img class="imager" src=<%= item.Imagem%> width="160" height="160">
+        </a>
+        <p>
+        <h2 class="button button-pink send-bd">Nome:<%= item.Nome%></h2>
+        <h2 class="button button-pink send-bd">Tipo:<%= item.Tipo%></h2>
+        </p>
+       
+     <% }) %>
+    </ul>
+</body>
+<script type="text/javascript" src="/scripts/script.js"></script>
+</html>

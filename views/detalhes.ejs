@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/188/188918.png" type="image/x-icon"/>
+    <title>Pokedex - BlueEdtech</title>
+</head>
+<body>
+    <nav class="navbar navbar-center navbar">
+        <div>
+            <div>
+                <a class="floatLeft" href="/" >Home</a></div>
+            <div>
+                    <a class="floatLeft" href="/cadastro" >Cadastro</a></div>
+            </div>
+        </div>
+    </nav>
+    
+    <ul>
+        <img class="imager" src=<%= pokemon.Imagem2%> width="160" height="160">
+        <p>
+        <h2 class="button button-pink send-bd send2">Número:<%= pokemon.Número%>
+            <br>Descrição:<%= pokemon.Descrição%>
+            <br> Altura:<%= pokemon.Altura%>
+            <br> Peso:<%= pokemon.Peso%>
+             <br>Categoria:<%= pokemon.Categoria%>
+             <br>Habilidade:<%= pokemon.Habilidade%>
+        </h2>
+        </p>
+    </ul>
+</body>
+</html>
